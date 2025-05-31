@@ -20,5 +20,6 @@ four:
 	@make git-pull
 	@echo hello after git pull
 
+inp = $(value)
 five:
-	echo value of input command - $(value) 
+	echo value of input command - ${inp} 
