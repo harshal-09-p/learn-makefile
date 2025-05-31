@@ -22,4 +22,4 @@ four:
 
 inp = $(value)
 five:
-	echo value of input command - ${inp} 
+	echo value of input command - $(inp)
