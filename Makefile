@@ -16,11 +16,11 @@ three:
 
 #calling make tag inside other make tag
 four:
-	echo hello four
-	make git-pull
-	echo hello after git pull
+	@echo hello four
+	@make git-pull
+	@echo hello after git pull
 
 val = $( value )
 
 five:
-	echo $( value ) 
+	echo value of input command - $( value ) 
